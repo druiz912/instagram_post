@@ -1,39 +1,53 @@
-body {
-     background-color: black;
+p {
+    font-family: 'Roboto','sans-serif';
+    font-size: 80%;
+}
+strong{
+    font-family: 'Roboto','sans-serif';
+    font-size: 90%;
 }
 
 
 .post {
-    background-color: rgb(222, 222, 224);
-    width: 22rem;
-    height: auto;
-
-    margin: auto;
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    left: 600px;
+    top: 100px;
 }
-
-.post-header  {
+.post-header {
+    height: 40px;
+    width: 200px;
     display: flex;
-
-    height: 50px;
-
+}
+.post-logos {
+    
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: right;
 }
 
-img {
-    width: 352px;
-    height: 300px;
+.post-body {
+    float: none;
 }
-
-.rd {
-    font-size: x-large;
-    padding-right: 4px;
+.post-icons {
+    display: flex;
+    
+    
 }
-
-#bookmark {
-    margin-left: 8.7em;
-    font-size: x-large;
+.post-text
+{
+    text-align: justify;
 }
-
-p{
-    font-family: monospace;
+#mt-rainier {
+    width: 300px;
+    
 }
-
+#html5 {
+    height: 20px;
+    width: 20px;
+}
